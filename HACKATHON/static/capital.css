@@ -1,0 +1,227 @@
+
+:root {
+    --capital-red: #CC2427;
+    --capital-blue: #004977;
+    --capital-dark-blue: #004977;
+    --capital-light-blue: #e6f2ff;
+    --capital-gray: #666666;
+    --capital-light-gray: #f8f9fa;
+}
+
+body {
+    background-color: white !important;
+    color: #333333 !important;
+    font-family: 'Inter', sans-serif !important;
+    min-height: 100vh;
+}
+
+
+#login-view, #register-view, #planner-view {
+    background: white !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 94, 184, 0.1) !important;
+}
+
+
+h1, h2, h3, h4 {
+    color: var(--capital-blue) !important;
+    font-weight: 300 !important;
+}
+
+.text-indigo-600 {
+    color: var(--capital-blue) !important;
+}
+
+
+.text-3xl.font-bold {
+    color: var(--capital-blue) !important;
+}
+
+
+.input-field {
+    background-color: white !important;
+    color: #333333 !important;
+    border: 2px solid #e0e0e0 !important;
+    border-radius: 8px !important;
+    padding: 12px 16px !important;
+    font-size: 16px !important;
+    transition: all 0.3s ease !important;
+}
+
+.input-field:focus {
+    border-color: var(--capital-blue) !important;
+    box-shadow: 0 0 0 3px rgba(0, 94, 184, 0.1) !important;
+    background-color: var(--capital-light-blue) !important;
+}
+
+
+label {
+    color: var(--capital-gray) !important;
+    font-weight: 600 !important;
+    margin-bottom: 8px !important;
+}
+
+
+button {
+    background: var(--capital-red) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    padding: 14px 24px !important;
+    color: white !important;
+    transition: all 0.3s ease !important;
+    cursor: pointer !important;
+}
+
+button:hover {
+    background: #ffffff !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 8px rgba(204, 36, 39, 0.3) !important;
+}
+
+.bg-gray-200 {
+    background: var(--capital-red) !important;
+    color: white !important;
+    border: none !important;
+}
+
+.bg-gray-200:hover {
+    background: var(--capital-red) !important;
+
+}
+
+
+.bg-green-500 {
+    background: var(--capital-red) !important;
+}
+
+.bg-green-500:hover {
+    background: #b31e20 !important;
+}
+
+
+#debt-list {
+    background: var(--capital-light-gray) !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 8px !important;
+}
+
+.bg-gray-50 {
+    background: var(--capital-light-gray) !important;
+}
+
+.border {
+    border-color: #e0e0e0 !important;
+}
+
+
+.bg-yellow-50 {
+    background: var(--capital-light-blue) !important;
+    border: 1px solid var(--capital-blue) !important;
+    border-radius: 8px !important;
+}
+
+.text-gray-800 {
+    color: var(--capital-light-gray) !important;
+}
+
+
+.bg-white {
+    background: white !important;
+    border: 2px solid #e0e0e0 !important;
+    border-radius: 8px !important;
+    color: #333333 !important;
+    transition: all 0.3s ease !important;
+}
+
+.border-indigo-200 {
+    border-color: #e0e0e0 !important;
+}
+
+.bg-white:hover {
+    border-color: var(--capital-blue) !important;
+    background: var(--capital-light-blue) !important;
+}
+
+
+.bg-indigo-100 {
+    background: rgba(0, 94, 184, 0.1) !important;
+    border: 1px solid var(--capital-blue) !important;
+}
+
+.bg-green-100 {
+    background: rgba(204, 36, 39, 0.1) !important;
+    border: 1px solid var(--capital-red) !important;
+}
+
+.bg-yellow-100 {
+    background: rgba(0, 73, 119, 0.1) !important;
+    border: 1px solid var(--capital-dark-blue) !important;
+}
+
+.text-indigo-600, .text-green-600, .text-yellow-600 {
+    color: var(--capital-gray) !important;
+}
+
+.text-indigo-800 {
+    color: var(--capital-blue) !important;
+}
+
+.text-green-800 {
+    color: var(--capital-red) !important;
+}
+
+.text-yellow-800 {
+    color: var(--capital-dark-blue) !important;
+}
+
+
+.bg-gray-100 {
+    background: var(--capital-light-gray) !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 8px !important;
+}
+
+
+a {
+    color: var(--capital-blue) !important;
+}
+
+a:hover {
+    color: var(--capital-dark-blue) !important;
+}
+
+
+.text-gray-600, .text-gray-500, .text-gray-700 {
+    color: var(--capital-gray) !important;
+}
+
+
+.text-red-500 {
+    color: var(--capital-light-gray) !important;
+}
+
+.text-red-500:hover {
+    color: #b31e20 !important;
+}
+
+
+button:disabled {
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+}
+
+button:disabled:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+
+input[type="radio"] {
+    accent-color: var(--capital-blue);
+}
+
+.p-6 {
+  padding: 1.5rem !important;
+}
